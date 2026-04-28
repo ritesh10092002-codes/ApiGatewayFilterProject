@@ -1,0 +1,6 @@
+Client---> Api gateway---> public route---> login
+
+login---> ApiGateway(response)---> header and all other required details to be stored in cookies
+
+Client--> ApiGateway-->Validate Token-->if validated--> Private route-->service access
+
